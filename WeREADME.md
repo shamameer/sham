@@ -1,2 +1,0 @@
-# sham
-For learning

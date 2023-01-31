@@ -1,0 +1,433 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+    font-family: Sans-Serif;
+}
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover {
+    color: #FF000F;
+}
+section {
+    padding: 100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url=https://top4top.io/][img]https://j.top4top.io/s_2583stns23.jpg[/img) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span {
+    color: #4c9eff;
+    font-size: 1.4em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px 15px;
+    letter-spacing: 10px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: warp;
+}
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.projects {
+    background-color: #000016;
+}
+.projects.content {
+    margin-top: 30px;
+}
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover {
+    transform: scale(1.1);
+}
+.project-image:hover.project-image {
+    oppacity: 0.9;
+}
+.project-image img {
+    width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.8em;
+    color: #000;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: #3a6cf4;
+}
+.more-details:hover{
+    color: #601cfc;
+}
+.contact.icon{
+    font-size: 4.5em;
+}
+.contact.info h3{
+    color: #000;
+}
+.contact.info p{
+    font-size: 1.5em;
+}
+.footer{
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: #3a6cf4;
+}
+
+
+
+
+
+@media(max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h2{
+        font-size: 1em;
+    }
+    .main-content h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 1.4em;
+    }
+}
+@media(max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}
+        
+        
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>
+        my project
+    </title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">sham</a>
+        <nav class="navigation">
+            <a href="#services">services</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+    <section class="main">
+        <div>
+            <h2> Hello,I'm Sham<br>
+                <span>
+                    Programe developer
+                </span></h2>
+            <h3>"Carry your proplem with strong Faith and handle your pain with a smile"</h3>
+            <a href="#project" class="main-btn">view my work</a>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="cards" id="services">
+        <h2 class="title">services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                </div>
+                <div class="info">
+                    <h3>internet</h3>
+                    <p>
+                        Learn How to Code in 2022 with
+                        These Free Online Clases
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                </div>
+                <div class="info">
+                    <h3> writing</h3>
+                    <p>
+                        How to Write Code: Getting Started
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <div class="info">
+                    <h3>certificate</h3>
+                    <p> Get your Certificate</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="projects" id="projects">
+                <h2 class="title">Projects</h2>
+                <div class="content">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/storage/emulated/0/sham/imag/IMGC.jpg" />
+                        </div>
+                        <div class="project-info">
+                            <p class="project-category">
+                            Books to Learn Programming
+                            </p>
+                            <strong class="project-title">
+                                <span>Dev Books</span>
+                                <a href="#" class="more-details">More details</a>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="title">Projects</h2>
+                <div class="content">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/storage/emulated/0/sham/imag/IMGG.jpg" />
+                        </div>
+                        <div class="project-info">
+                            <p class="project-category">
+                                Matematiecs Project
+                            </p>
+                            <strong class="project-title">
+                                <span>Dev Books</span>
+                                <a href="#" class="more-details">More details</a>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="title">Projects</h2>
+                <div class="content">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/storage/emulated/0/sham/imag/IMGD.jpg" />
+                        </div>
+                        <div class="project-info">
+                            <p class="project-category">
+                                The Code Book
+                            </p>
+                            <strong class="project-title">
+                                <span>Dev Books</span>
+                                <a href="#" class="more-details">More details</a>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cards content" id="contact">
+                <h2 class="title">let's work togther</h2>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Phone</h3>
+                        <p>
+                            00963945952117
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>
+                        lulu2511983@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">
+            copyrights@
+            <span>Sham Ameer</span>
+        </p>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
